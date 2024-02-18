@@ -1,0 +1,20 @@
+Entité : 
+
+User
+UserInformations
+Token (redis)
+Roles
+
+Endpoint :
+
+/auth/login
+/auth/register
+/auth/validateToken
+
+/user/getUserInfo
+/user/updateUserInfo
+/user/deleteAccount
+
+/admin/getUsers
+/admin/getUser
+/admin/deleteUser
