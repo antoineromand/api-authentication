@@ -1,0 +1,10 @@
+Domain (Business Logic)
+
+- entities
+- object values
+- enum
+- repositories (interface)
+- services (related to business logic)
+- event
+- enums
+- exceptions
