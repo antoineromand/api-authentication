@@ -18,3 +18,10 @@ Endpoint :
 /admin/getUsers
 /admin/getUser
 /admin/deleteUser
+
+Chiffrement asymétrique : 
+
+Génération de pair (RSA)
+Clé public dans redis
+Clé privée pas stocké, elle sert juste de signature
+
