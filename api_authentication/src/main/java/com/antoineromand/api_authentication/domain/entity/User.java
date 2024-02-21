@@ -10,12 +10,13 @@ public class User {
     private Role role;
     private String createdAt;
     private String updatedAt;
+    private UserInformation information;
 
     public User() {
     }
 
     public User(int id, String username, String password, String email, Role role, String createdAt,
-            String updatedAt) {
+            String updatedAt, UserInformation information) {
         this.id = id;
         this.username = username;
         this.password = password;
@@ -23,6 +24,7 @@ public class User {
         this.role = role;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
+        this.information = information;
     }
 
     // Getters and Setters
@@ -55,6 +57,10 @@ public class User {
         return updatedAt;
     }
 
+    public UserInformation getInformation() {
+        return information;
+    }
+
     public void setId(int id) {
         this.id = id;
     }
@@ -81,6 +87,10 @@ public class User {
 
     public void setUpdatedAt(String updatedAt) {
         this.updatedAt = updatedAt;
+    }
+
+    public void setInformation(UserInformation information) {
+        this.information = information;
     }
 
     // for debugging
